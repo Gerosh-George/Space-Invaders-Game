@@ -20,8 +20,9 @@ pygame.display.set_icon(game_icon)
 
 # Background music
 mx.music.load('sounds/background.wav')
+mx.music.set_volume(0.5)
 mx.music.play(-1)
-mx.music.set_volume(0.4)
+
 
 # Player Object
 player_image=pygame.image.load('images/player.png')
